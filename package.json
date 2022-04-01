@@ -1,0 +1,22 @@
+{
+  "name": "portfoliov5",
+  "version": "1.0.0",
+  "description": "Portafolio Marzo 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d build",
+    "start": "node index.js"
+  },
+  "author": "Williams Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "homepage": "https://hernandw.github.io/portfoliov5/"
+}
