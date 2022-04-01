@@ -356,6 +356,7 @@ section {
 --------------------------------------------------------------*/
 .foto {
   border-radius: 10px;
+  
 }
 
 .about .content h3 {
@@ -383,6 +384,24 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  #about h3 {
+    text-align: center;
+  }
+  .foto {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #about h3 {
+    text-align: center;
+  }
+
+  .foto {
+    margin: 0 auto;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -827,9 +846,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+
 #footer {
   background: #f7f8f9;
   color: #45505b;
@@ -886,6 +903,8 @@ section {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+
+
 
 .boton__container {
   display: flex;
