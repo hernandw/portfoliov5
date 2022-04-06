@@ -491,7 +491,7 @@ section {
   border-left: 2px solid #0563bb;
   position: relative;
 }
-.resume .resume-item h4 {
+.resume .resume-item h4, .resume-item h4 a{
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -500,6 +500,8 @@ section {
   color: #0563bb;
   margin-bottom: 10px;
 }
+
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #f7f8f9;
